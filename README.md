@@ -1,4 +1,4 @@
-# 📰 News App
+# 📰 NewsWave
 
 A full-stack **News Web Application** built with the **MERN stack** that fetches and displays real-time news articles using the **NewsAPI**.  
 Users can search for topics, select a preferred language (English, Hindi, Telugu, etc.), and instantly view live news with sources and publish dates.  
