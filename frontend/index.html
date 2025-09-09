@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📰 NewsWave</h1>
+    
+    <!-- Search bar -->
+    <input type="text" id="search" placeholder="Search news (e.g., technology)" />
+
+    <!-- Language dropdown -->
+    <select id="language">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+      <option value="te">Telugu</option>
+      <option value="ta">Tamil</option>
+      <option value="ml">Malayalam</option>
+      <option value="kn">Kannada</option>
+      <option value="mr">Marathi</option>
+    </select>
+
+    <!-- Button -->
+    <button onclick="getNews()">Get News</button>
+
+    <!-- News results -->
+    <div id="news"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
